@@ -46,9 +46,10 @@ namespace QUANLYBANMAYTINH
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(349, 18);
+            this.label1.Location = new System.Drawing.Point(262, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 32);
+            this.label1.Size = new System.Drawing.Size(150, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "ĐĂNG NHẬP ";
             // 
@@ -56,9 +57,10 @@ namespace QUANLYBANMAYTINH
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(310, 190);
+            this.label2.Location = new System.Drawing.Point(232, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 20);
+            this.label2.Size = new System.Drawing.Size(117, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên Đăng Nhập :";
             // 
@@ -66,33 +68,37 @@ namespace QUANLYBANMAYTINH
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(310, 262);
+            this.label3.Location = new System.Drawing.Point(232, 213);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 20);
+            this.label3.Size = new System.Drawing.Size(76, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật Khẩu :";
             // 
             // txt_TenDN
             // 
-            this.txt_TenDN.Location = new System.Drawing.Point(466, 190);
+            this.txt_TenDN.Location = new System.Drawing.Point(350, 154);
+            this.txt_TenDN.Margin = new System.Windows.Forms.Padding(2);
             this.txt_TenDN.Name = "txt_TenDN";
-            this.txt_TenDN.Size = new System.Drawing.Size(198, 22);
+            this.txt_TenDN.Size = new System.Drawing.Size(150, 20);
             this.txt_TenDN.TabIndex = 3;
             // 
             // txt_MK
             // 
-            this.txt_MK.Location = new System.Drawing.Point(466, 260);
+            this.txt_MK.Location = new System.Drawing.Point(350, 211);
+            this.txt_MK.Margin = new System.Windows.Forms.Padding(2);
             this.txt_MK.Name = "txt_MK";
-            this.txt_MK.Size = new System.Drawing.Size(198, 22);
+            this.txt_MK.Size = new System.Drawing.Size(150, 20);
             this.txt_MK.TabIndex = 4;
             // 
             // btn_ThoatDN
             // 
-            this.btn_ThoatDN.BackColor = System.Drawing.Color.DarkGray;
+            this.btn_ThoatDN.BackColor = System.Drawing.Color.LightGray;
             this.btn_ThoatDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ThoatDN.Location = new System.Drawing.Point(314, 399);
+            this.btn_ThoatDN.Location = new System.Drawing.Point(236, 324);
+            this.btn_ThoatDN.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ThoatDN.Name = "btn_ThoatDN";
-            this.btn_ThoatDN.Size = new System.Drawing.Size(151, 63);
+            this.btn_ThoatDN.Size = new System.Drawing.Size(113, 51);
             this.btn_ThoatDN.TabIndex = 5;
             this.btn_ThoatDN.Text = "THOÁT";
             this.btn_ThoatDN.UseVisualStyleBackColor = false;
@@ -100,11 +106,12 @@ namespace QUANLYBANMAYTINH
             // 
             // btn_DN
             // 
-            this.btn_DN.BackColor = System.Drawing.Color.DarkGray;
+            this.btn_DN.BackColor = System.Drawing.Color.LightGray;
             this.btn_DN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DN.Location = new System.Drawing.Point(520, 399);
+            this.btn_DN.Location = new System.Drawing.Point(390, 324);
+            this.btn_DN.Margin = new System.Windows.Forms.Padding(2);
             this.btn_DN.Name = "btn_DN";
-            this.btn_DN.Size = new System.Drawing.Size(144, 63);
+            this.btn_DN.Size = new System.Drawing.Size(108, 51);
             this.btn_DN.TabIndex = 6;
             this.btn_DN.Text = "ĐĂNG NHẬP";
             this.btn_DN.UseVisualStyleBackColor = false;
@@ -114,27 +121,29 @@ namespace QUANLYBANMAYTINH
             // 
             this.pictureBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox.BackgroundImage")));
             this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox.Location = new System.Drawing.Point(466, 314);
+            this.pictureBox.Location = new System.Drawing.Point(350, 255);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(198, 50);
+            this.pictureBox.Size = new System.Drawing.Size(148, 41);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 7;
             this.pictureBox.TabStop = false;
             // 
             // txt_captcha
             // 
-            this.txt_captcha.Location = new System.Drawing.Point(314, 327);
+            this.txt_captcha.Location = new System.Drawing.Point(236, 266);
+            this.txt_captcha.Margin = new System.Windows.Forms.Padding(2);
             this.txt_captcha.Name = "txt_captcha";
-            this.txt_captcha.Size = new System.Drawing.Size(110, 22);
+            this.txt_captcha.Size = new System.Drawing.Size(84, 20);
             this.txt_captcha.TabIndex = 8;
             // 
             // frm_DANGNHAP
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(976, 488);
+            this.ClientSize = new System.Drawing.Size(675, 396);
             this.Controls.Add(this.txt_captcha);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.btn_DN);
@@ -144,8 +153,9 @@ namespace QUANLYBANMAYTINH
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_DANGNHAP";
-            this.Text = "frm_DANGNHAP";
+            this.Text = "ĐĂNG NHẬP";
             this.Load += new System.EventHandler(this.frm_DANGNHAP_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);

@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>QUANLYBANMAYTINH</RootNamespace>
     <AssemblyName>QUANLYBANMAYTINH</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -27,6 +27,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,6 +71,12 @@
     <Compile Include="DAL\dalKHACHHANG.cs" />
     <Compile Include="DAL\dalNHANVIEN.cs" />
     <Compile Include="DAL\dalTHIETBI.cs" />
+    <Compile Include="GUI\frm_DANGKY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_DANGKY.Designer.cs">
+      <DependentUpon>frm_DANGKY.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_DANGNHAP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +110,9 @@
     <Compile Include="DAL\LopDungChung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frm_DANGKY.resx">
+      <DependentUpon>frm_DANGKY.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_DANGNHAP.resx">
       <DependentUpon>frm_DANGNHAP.cs</DependentUpon>
     </EmbeddedResource>

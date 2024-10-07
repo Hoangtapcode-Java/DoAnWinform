@@ -11,7 +11,7 @@ namespace QUANLYBANMAYTINH
 {
     class LopDungChung
     {
-        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\LAPTRINH.NET\QUANLYBANMAYTINH\sqlQuanLyBanMayTinh.mdf;Integrated Security=True";
+        string ketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Downloads\QUANLYBANMAYTINH\sqlQuanLyBanMayTinh.mdf;Integrated Security=True";
         SqlConnection conn;
         public LopDungChung()
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QUANLYBANMAYTINH.GUI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,8 +17,7 @@ namespace QUANLYBANMAYTINH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_DANGNHAP());
-            //Application.Run(new frm_THIETBI());
+            Application.Run(new frm_DANGKY());
         }
     }
 }
